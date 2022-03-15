@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Usuario/Documents/GitHub/Examen2_Moviles/app/src/main/res/drawable/first_gradient.xml" value="0.13" />
+        <entry key="..\:/Users/Usuario/Documents/GitHub/Examen2_Moviles/app/src/main/res/drawable/menu.xml" value="0.13" />
+        <entry key="..\:/Users/Usuario/Documents/GitHub/Examen2_Moviles/app/src/main/res/drawable/round_button.xml" value="0.13" />
+        <entry key="..\:/Users/Usuario/Documents/GitHub/Examen2_Moviles/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Usuario/Documents/GitHub/Examen2_Moviles/app/src/main/res/layout/activity_menu.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Usuario/Documents/GitHub/Examen2_Moviles/app/src/main/res/layout/activity_menu_plantilla.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Usuario/Documents/GitHub/Examen2_Moviles/app/src/main/res/layout/productos.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/boble/AndroidStudioProjects/Examen2_Moviles/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
       </map>
     </option>

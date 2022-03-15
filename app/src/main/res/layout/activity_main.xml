@@ -14,5 +14,27 @@
         android:src="@drawable/logotacos"
         android:scaleType="fitXY"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/fondoRojo"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        />
+    <!-- preguntar porque no se adapta el color del boton-->
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="@string/menu"
+        android:textSize="20dp"
+        android:background="@drawable/round_button"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        />
 
 </LinearLayout>

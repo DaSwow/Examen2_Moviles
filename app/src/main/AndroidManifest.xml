@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Examen2_Moviles">
         <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPlantilla"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
