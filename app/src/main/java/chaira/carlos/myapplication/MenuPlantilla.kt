@@ -12,7 +12,7 @@ import android.widget.ListView
 import android.widget.TextView
 
 class MenuPlantilla : AppCompatActivity() {
-    var menu = ArrayList<Product>()
+    var menu = ArrayList<Producto>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu_plantilla)
