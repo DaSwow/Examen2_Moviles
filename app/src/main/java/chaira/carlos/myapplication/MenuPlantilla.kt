@@ -50,14 +50,14 @@ class MenuPlantilla : AppCompatActivity() {
                 menu.add(Producto("Fajita Quesadilla",R.drawable.imagen,"Quesadilla extra grande, rellena con tu carne favorita, cebolla asada, chile banana y jitomate. Servida con arroz, frijoles y ensalada Extra large quesadilla with your choice of meat, cooked with grilled onions, banana peppers and tomatoes. Served with rice beans and salad.",12.49))
                 menu.add(Producto("Botana de Camarones",R.drawable.imagen,"",17.99))
                 menu.add(Producto("Coctel Camaron",R.drawable.imagen,"",14.50))
-
             }
+
             "caldos" ->{
                 img.setImageResource(R.drawable.nombreImagen)
                 menu.add(Producto("Larger",R.drawable.imagen,"",10.99))
                 menu.add(Producto("Camaron",R.drawable.imagen,"",11.99))
-
             }
+
             "combinations" ->{
                 img.setImageResource(R.drawable.nombreImagen)
                 menu.add(Producto("Traditional Taco Combo",R.drawable.imagen,"Tortilla de Maiz, tu carne favorita, servido con arroz y frijoles Corn tortilla taco, your choice of meat, served with rice and beans",6.99))
@@ -66,8 +66,8 @@ class MenuPlantilla : AppCompatActivity() {
                 menu.add(Producto("Cinco",R.drawable.imagen,"One hard sell taco with your choice of meat, lettuce and cheese. One burrito with your choice of meat, pico de gallo, sour cream, guacamole and beans. Served with rice and beans.",7.67))
                 menu.add(Producto("Dos Amigos",R.drawable.imagen,"Two hard shell tacos with your choice of meat topped with lettuce and shredded cheese. served with a side of rice and beans",8.25))
                 menu.add(Producto("Burrito Pepe",R.drawable.imagen,"A flour tortilla wrapped around your choice of meat with beans, lettuce, sour cream, guacamole and pico de gallo. served with a side of rice.",6.89))
-
             }
+
             "tortas" ->{
                 img.setImageResource(R.drawable.nombreImagen)
                 menu.add(Producto("Torta Regular",imagen,"All tortas come with lettuce, onions, tomatoes, avocado do, sour cream, mayo, jalapeno pepper and your choice of meat. ",10.95))
@@ -75,8 +75,8 @@ class MenuPlantilla : AppCompatActivity() {
                 menu.add(Producto("Torta Cubana",imagen,"Chorizo, asada, jamon, pastor y queso Mexican sausage, steak, marinated pork, ham, and cheese",12.35))
                 menu.add(Producto("Torta Mixta",imagen,"Chorizo, asada y pastor Mexican sausage, steak and marinated pork",11.99))
                 menu.add(Producto("Small Mexican Torta",imagen,"Bolillo bread sandwich with your choice of filling. Topped with Lettuce, tomatoes, onions, and avocado.",6.89))
-
             }
+
             "sopas" ->{
                 img.setImageResource(R.drawable.nombreImagen)
                 menu.add(Producto("Pozole",R.drawable.imagen,"Weekends only",5.99))
@@ -85,8 +85,8 @@ class MenuPlantilla : AppCompatActivity() {
                 menu.add(Producto("Caldo de Camaron",R.drawable.imagen,"Shrimp soup",10.69))
                 menu.add(Producto("Sopa de Mariscos",R.drawable.imagen,"Seafood soup",15.75))
                 menu.add(Producto("Coctel de Camaron",R.drawable.imagen,"Shrimp cocktail",13.50))
-
             }
+
             "sideOrders" ->{
                 img.setImageResource(R.drawable.nombreImagen)
                 menu.add(Producto("Side of Guacamole",R.drawable.imagen,"",3.75))
@@ -94,8 +94,8 @@ class MenuPlantilla : AppCompatActivity() {
                 menu.add(Producto("Side Of Beans",R.drawable.imagen,"",1.99))
                 menu.add(Producto("Chips And Salsa",R.drawable.imagen,"",2.25))
                 menu.add(Producto("Flour Tacos",R.drawable.imagen,"",2.99)
-
             }
+
             "drinks" ->{
                 img.setImageResource(R.drawable.nombreImagen)
                 menu.add(Producto("Sodas 20oz.",R.drawable.imagen,"",2.75))
@@ -113,7 +113,6 @@ class MenuPlantilla : AppCompatActivity() {
                 menu.add(Producto("La mamalona",R.drawable.imagen,"(michelada 2 Cervesas)",12.99))
                 menu.add(Producto("La mamalona con camarones",R.drawable.imagen,"",14.99))
                 menu.add(Producto("Cubetazo (6 cervesas)",R.drawable.imagen,"",21.99))
-
             }
         }
 
