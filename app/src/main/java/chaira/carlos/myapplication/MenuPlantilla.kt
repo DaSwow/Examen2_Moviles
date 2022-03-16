@@ -31,31 +31,31 @@ class MenuPlantilla : AppCompatActivity() {
             "tacos" ->{
                 img.setImageResource(R.drawable.tacos)
                 menu.add(Producto("Taco Tradicional", R.drawable.tacos,"Traditional Taco", 2.35 ))
-                menu.add(Producto("Taco de pescado",imagen,"Fish taco", 2.35))
+                menu.add(Producto("Taco de pescado", R.drawable.tacoPescado,"Fish taco", 2.35))
             }
             "antojitos" ->{
                 img.setImageResource(R.drawable.nombreImagen)
                 menu.add(Producto("Quesadillas", R.drawable.imagen, "Rellenas con su carne favorita, servidas con ensalada. Filled with your choice of meat, served with salad.", 4.75))
-                menu.add(Producto("Huaraches", R.drawable.imagen, "Tortilla gruesa con frijoles, tu carne favorita, lechuga, queso fresco y crema. Big Thick tortilla with beans, your choice of meat, fresh cheese, and sour cream",9.87))
-                menu.add(Producto("Gringas",R.drawable.imagen,"Tortilla de harina con queso, carne al pastor y piña Flour tortilla with cheese marinated pork and pineapple",6.47))
-                menu.add(Producto("Sincronizadas",R.drawable.imagen,"Tortilla de harina rellena con queso y jamon. Se sirve con lechuga, crema y guacamole Sandwich of Two four tortillas filled with ham and cheese. Served with lettuce, sour cream, and guacamole.",6.99))
-                menu.add(Producto("Sopes",R.drawable.imagen,"Tortilla gruesa cubierta de frijoles, tu carne favorita, lechuga, queso fresco y crema Fried thick tortilla with beans, your choice of meat, lettuce, fresh cheese, sour cream and tomatoes",3.39))
-                menu.add(Producto("Tostadas",R.drawable.imagen,"Tortilla frita con frijoles, tu carne favorita, lechuga, queso fresco, crema y jitomate Fried tortilla with beans, your choice of meat, lettuce, fresh cheese, sour cream and tomatoes",3.55))
+                menu.add(Producto("Huaraches", R.drawable.Huaraches, "Tortilla gruesa con frijoles, tu carne favorita, lechuga, queso fresco y crema. Big Thick tortilla with beans, your choice of meat, fresh cheese, and sour cream",9.87))
+                menu.add(Producto("Gringas",R.drawable.gringas,"Tortilla de harina con queso, carne al pastor y piña Flour tortilla with cheese marinated pork and pineapple",6.47))
+                menu.add(Producto("Sincronizadas",R.drawable.sincronizadas,"Tortilla de harina rellena con queso y jamon. Se sirve con lechuga, crema y guacamole Sandwich of Two four tortillas filled with ham and cheese. Served with lettuce, sour cream, and guacamole.",6.99))
+                menu.add(Producto("Sopes",R.drawable.sopes,"Tortilla gruesa cubierta de frijoles, tu carne favorita, lechuga, queso fresco y crema Fried thick tortilla with beans, your choice of meat, lettuce, fresh cheese, sour cream and tomatoes",3.39))
+                menu.add(Producto("Tostadas",R.drawable.tostadas,"Tortilla frita con frijoles, tu carne favorita, lechuga, queso fresco, crema y jitomate Fried tortilla with beans, your choice of meat, lettuce, fresh cheese, sour cream and tomatoes",3.55))
             }
             "especialidades" ->{
                 img.setImageResource(R.drawable.nombreImagen)
-                menu.add(Producto("Mojarra Frita - Fried Fish",R.drawable.imagen,"Tilapia frita servida con lechiga, cebolla, jitomate, aguacate y tortillas. Agregue arroz y frijoles por $1.50 adicinales Fried tilapia served with lettuce, onions, tomatoes, avocado and tortillas. Add rice and beans for $1.50 extra",14.49))
-                menu.add(Producto("Tostadas de Ceviche",R.drawable.imagen,"Tilapia, camarones y pico de gallo servido en una crujiente tostada Tilapia, Shrimp and pico de gallo, served on a crispy shell",2.99))
-                menu.add(Producto("Fajita Burrito",R.drawable.imagen,"Gran burrito relleno de tu carne favorita, cebolla, chile, arroz, frijoles y jitomate. Servido con lechuga y guacamole Large burrito filled with your choice of meat, onions, chile, peppers, rice, beans and tomatoes. Served with lettuce guacamole and sour cream.",11.79))
-                menu.add(Producto("Fajita Quesadilla",R.drawable.imagen,"Quesadilla extra grande, rellena con tu carne favorita, cebolla asada, chile banana y jitomate. Servida con arroz, frijoles y ensalada Extra large quesadilla with your choice of meat, cooked with grilled onions, banana peppers and tomatoes. Served with rice beans and salad.",12.49))
+                menu.add(Producto("Mojarra Frita - Fried Fish",R.drawable.mojarraFrita,"Tilapia frita servida con lechiga, cebolla, jitomate, aguacate y tortillas. Agregue arroz y frijoles por $1.50 adicinales Fried tilapia served with lettuce, onions, tomatoes, avocado and tortillas. Add rice and beans for $1.50 extra",14.49))
+                menu.add(Producto("Tostadas de Ceviche",R.drawable.tostadaCeviche,"Tilapia, camarones y pico de gallo servido en una crujiente tostada Tilapia, Shrimp and pico de gallo, served on a crispy shell",2.99))
+                menu.add(Producto("Fajita Burrito",R.drawable.fajitaBurrito,"Gran burrito relleno de tu carne favorita, cebolla, chile, arroz, frijoles y jitomate. Servido con lechuga y guacamole Large burrito filled with your choice of meat, onions, chile, peppers, rice, beans and tomatoes. Served with lettuce guacamole and sour cream.",11.79))
+                menu.add(Producto("Fajita Quesadilla",R.drawable.fajitaQuesadilla,"Quesadilla extra grande, rellena con tu carne favorita, cebolla asada, chile banana y jitomate. Servida con arroz, frijoles y ensalada Extra large quesadilla with your choice of meat, cooked with grilled onions, banana peppers and tomatoes. Served with rice beans and salad.",12.49))
                 menu.add(Producto("Botana de Camarones",R.drawable.imagen,"",17.99))
                 menu.add(Producto("Coctel Camaron",R.drawable.imagen,"",14.50))
             }
 
             "caldos" ->{
                 img.setImageResource(R.drawable.nombreImagen)
-                menu.add(Producto("Larger",R.drawable.imagen,"",10.99))
-                menu.add(Producto("Camaron",R.drawable.imagen,"",11.99))
+                menu.add(Producto("Larger",R.drawable.caldoLarger,"",10.99))
+                menu.add(Producto("Camaron",R.drawable.caldoCamaron,"",11.99))
             }
 
             "combinations" ->{
