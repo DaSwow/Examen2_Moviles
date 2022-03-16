@@ -118,10 +118,10 @@ class MenuPlantilla : AppCompatActivity() {
 
     }
     private class AdaptadorProductos: BaseAdapter {
-        var productos=ArrayList<Product>()
+        var productos=ArrayList<Producto>()
         var contexto: Context?=null
 
-        constructor(contexto: Context, producto: ArrayList<Product>){
+        constructor(contexto: Context, producto: ArrayList<Producto>){
             this.productos=producto
             this.contexto=contexto
         }
