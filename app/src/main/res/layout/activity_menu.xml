@@ -127,7 +127,7 @@
         android:paddingHorizontal="20dp"
         >
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/tacosbtn"
             android:layout_columnWeight="0"
             android:layout_gravity="fill_horizontal"
