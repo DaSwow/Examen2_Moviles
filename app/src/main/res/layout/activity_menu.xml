@@ -124,7 +124,7 @@
         android:layout_height="wrap_content"
         android:columnCount="2"
         android:layout_marginTop="20dp"
-        android:paddingHorizontal="50dp"
+        android:paddingHorizontal="20dp"
         >
 
         <Button
