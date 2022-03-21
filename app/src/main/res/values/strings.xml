@@ -72,16 +72,7 @@
 
 
     <!--Precios-->
-    <string name="precio025">0.25</string>
-    <string name="precio164">1.64</string>
-    <string name="precio199">1.99</string>
-    <string name="precio235">2.35</string>
-    <string name="precio339">3.39</string>
-    <string name="precio355">3.55</string>
-    <string name="precio475">4.75</string>
-    <string name="precio647">6.47</string>
-    <string name="precio699">6.99</string>
-    <string name="precio987">9.87</string>
+
 
     <string name="antojitos">Antojitos</string>
     <string name="especialidades">Especialidades</string>
