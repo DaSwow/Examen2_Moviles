@@ -85,4 +85,15 @@
     <string name="sopas">Sopas</string>
     <string name="sideOrders">SideOrders</string>
     <string name="drinks">Drinks</string>
+    <string name="carrito">Carrito</string>
+    <string name="guionmedio">-</string>
+    <string name="simbolomas">+</string>
+    <string name="precio">Precio</string>
+    <string name="descripcion">Descripción</string>
+    <string name="_0">0</string>
+    <string name="imagen_producto">Imagen producto</string>
+    <string name="imagen_menu">Imagen Menu</string>
+    <string name="comprar">Comprar</string>
+    <string name="total">Total</string>
+
 </resources>

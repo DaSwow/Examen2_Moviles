@@ -29,7 +29,7 @@
         android:layout_width="250dp"
         android:layout_height="70dp"
         android:text="@string/menu"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:backgroundTint="@color/fondoRojo"
         android:textColor="@color/white"
         android:layout_gravity="center"

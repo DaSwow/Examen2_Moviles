@@ -152,7 +152,7 @@
         android:id="@+id/btn_carrito"
         android:layout_width="250dp"
         android:layout_height="70dp"
-        android:text="Carrito"
+        android:text="@string/carrito"
         android:textSize="20dp"
         android:background="@drawable/first_gradient"
         android:textColor="@color/white"
