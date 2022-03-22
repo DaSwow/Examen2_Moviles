@@ -147,7 +147,7 @@ class MenuPlantilla : AppCompatActivity() {
             image.setImageResource(prod.image)
             nombre.setText(prod.name)
             desc.setText(prod.description)
-            precio.setText("$${prod.price}")
+            precio.setText("0.0")
 
             (vista.findViewById(R.id.btn_mas) as Button).setOnClickListener { view ->
                 var cantidad= vista.findViewById(R.id.cantidad_producto) as TextView
@@ -162,28 +162,18 @@ class MenuPlantilla : AppCompatActivity() {
             }
 
             (vista.findViewById(R.id.btn_menos) as Button) .setOnClickListener { view ->
-            
-            }
+                var cantidad= vista.findViewById(R.id.cantidad_producto) as TextView
+                var numeroCantidad = ((cantidad.text) as String).toDouble()
 
+                if (numeroCantidad != 0.0){
+                    numeroCantidad -= 1
+                    cantidad.setText("${numeroCantidad}")
 
-
-
-
-
-
-
-
-
-
-
-
+                    var precioActual = numeroCantidad * prod.price
+                    precioActual =  String.format("%.2f", precioActual).toDouble()
+                    precio.setText("${precioActual}")}
+                }
             return vista
-
         }
-
-
-
-
-
     }
 }
