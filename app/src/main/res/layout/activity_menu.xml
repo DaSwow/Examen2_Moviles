@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="@color/fondoAmarillo"
     tools:context=".MenuActivity">
 
     <ImageView
@@ -26,99 +27,7 @@
         android:textSize="20sp"
         android:layout_marginTop="20dp"
         />
-<!--Ejemplo
-<GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:columnCount="2"
-        android:layout_marginTop="20dp"
-        android:paddingHorizontal="50dp"
-        >
 
-        <Button
-            android:id="@+id/coldDrinksButton"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill_horizontal"
-            android:layout_marginRight="@dimen/menu_buttons_margin"
-            android:background="@drawable/first_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_paddings"
-            android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:text="@string/cold_drinks"
-            android:textColor="@color/dusty_white"
-            android:textSize="@dimen/menu_buttons_text"
-            />
-
-        <Button
-            android:id="@+id/hotDrinksButton"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill_horizontal"
-            android:layout_marginLeft="@dimen/menu_buttons_margin"
-            android:background="@drawable/first_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_paddings"
-            android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:text="@string/hot_drinks"
-            android:textColor="@color/dusty_white"
-            android:textSize="@dimen/menu_buttons_text"
-            />
-
-
-        <Button
-            android:id="@+id/sweetsButton"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill_horizontal"
-            android:layout_marginRight="@dimen/menu_buttons_margin"
-            android:background="@drawable/second_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_paddings"
-            android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:text="@string/sweets"
-            android:textColor="@color/dusty_white"
-            android:textSize="@dimen/menu_buttons_text"
-            />
-
-        <Button
-            android:id="@+id/saltiesButton"
-
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill_horizontal"
-            android:layout_marginLeft="@dimen/menu_buttons_margin"
-            android:background="@drawable/second_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_paddings"
-            android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:text="@string/salties"
-            android:textColor="@color/dusty_white"
-            android:textSize="@dimen/menu_buttons_text"
-            />
-
-        <Button
-            android:id="@+id/combosButton"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill_horizontal"
-            android:layout_marginRight="@dimen/menu_buttons_margin"
-            android:background="@drawable/third_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_paddings"
-            android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:text="@string/combos"
-            android:textColor="@color/dusty_white"
-            android:textSize="@dimen/menu_buttons_text"
-            />
-
-        <Button
-            android:id="@+id/customButton"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill_horizontal"
-            android:layout_marginLeft="@dimen/menu_buttons_margin"
-            android:background="@drawable/third_gradient"
-            android:paddingHorizontal="@dimen/menu_buttons_paddings"
-            android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:text="custom"
-            android:textColor="@color/dusty_white"
-            android:textSize="@dimen/menu_buttons_text" />
-    </GridLayout>
-
--->
-    <!--no se que pasó 1.- no aplica color
-2.- no se acomodan los botones
--->
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -238,6 +147,18 @@
             android:textColor="@color/white"
             android:textSize="@dimen/menu_buttons_text" />
     </GridLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_carrito"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Carrito"
+        android:textSize="20dp"
+        android:background="@drawable/first_gradient"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        />
 
 </LinearLayout>
 

@@ -24,6 +24,12 @@ class MenuActivity : AppCompatActivity() {
 
 
 
+        val button: Button = findViewById(R.id.btn_carrito)
+        button.setOnClickListener{
+            var intent: Intent = Intent (this, CarritoActivity::class.java)
+            startActivity(intent)
+        }
+
         btnTacos.setOnClickListener{
             var intent: Intent = Intent(this, MenuPlantilla::class.java)
             intent.putExtra("type", "tacos")

@@ -33,7 +33,46 @@
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:stretchColumns="3">
+        android:stretchColumns="4">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/espacio1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                />
+
+            <TextView
+                android:id="@+id/cantidad"
+                android:layout_width="60dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cantidad"
+                />
+
+            <TextView
+                android:id="@+id/espacio2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                />
+
+            <TextView
+                android:id="@+id/precio"
+                android:layout_width="50dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Precio"
+                />
+
+        </TableRow>
 
         <TableRow>
             <Button
@@ -56,18 +95,22 @@
                 android:layout_height="50dp"
                 android:backgroundTint="@color/fondoRojo"
                 android:text="-"/>
+
+            <TextView
+                android:id="@+id/precio_producto"
+                android:layout_width="50dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                />
         </TableRow>
 
 
     </TableLayout>
 
-    <TextView
-        android:id="@+id/precio_producto"
-        android:layout_width="50dp"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="$2.35"
-        />
+
+
+
 </LinearLayout>
 
