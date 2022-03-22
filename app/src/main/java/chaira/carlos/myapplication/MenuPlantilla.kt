@@ -6,10 +6,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.BaseAdapter
-import android.widget.ImageView
-import android.widget.ListView
-import android.widget.TextView
+import android.widget.*
 
 class MenuPlantilla : AppCompatActivity() {
     var menu = ArrayList<Producto>()
@@ -19,12 +16,11 @@ class MenuPlantilla : AppCompatActivity() {
 
         var menuOption:  String? = intent.getStringExtra("type")
         agregarProductos(menuOption)
-        var listview: ListView =findViewById(R.id.listview) as ListView
+        var listview: ListView = findViewById(R.id.listview) as ListView
         var adaptador: AdaptadorProductos=AdaptadorProductos(this, menu)
         listview.adapter=adaptador
     }
-//    falta agregar imagenes img.setImageResource(R.drawable.nombreImagen)
-//    falta agregar imagenes individuales R.drawable.imagen en .imagen va el nombre de la imagen
+
     fun agregarProductos(option:String?){
         var img: ImageView =findViewById(R.id.imgMenu) as ImageView
         when(option){
@@ -143,7 +139,7 @@ class MenuPlantilla : AppCompatActivity() {
             var inflador= LayoutInflater.from(contexto)
             var vista = inflador.inflate(R.layout.productos, null)
 
-            var image=vista.findViewById(R.id.producto_img) as ImageView
+            var image= vista.findViewById(R.id.producto_img) as ImageView
             var nombre = vista.findViewById(R.id.nombre_producto) as TextView
             var desc = vista.findViewById(R.id.descripcion_producto) as TextView
             var precio = vista.findViewById(R.id.precio_producto) as TextView
@@ -152,7 +148,42 @@ class MenuPlantilla : AppCompatActivity() {
             nombre.setText(prod.name)
             desc.setText(prod.description)
             precio.setText("$${prod.price}")
+
+            (vista.findViewById(R.id.btn_mas) as Button).setOnClickListener { view ->
+                var cantidad= vista.findViewById(R.id.cantidad_producto) as TextView
+                var numeroCantidad = ((cantidad.text) as String).toDouble()
+                numeroCantidad += 1
+                cantidad.setText("${numeroCantidad}")
+
+                var precioActual = numeroCantidad * prod.price
+                precioActual =  String.format("%.2f", precioActual).toDouble()
+                precio.setText("${precioActual}")
+
+            }
+
+            (vista.findViewById(R.id.btn_menos) as Button) .setOnClickListener { view ->
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
             return vista
+
         }
+
+
+
+
+
     }
 }

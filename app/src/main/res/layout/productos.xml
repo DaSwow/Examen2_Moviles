@@ -58,12 +58,6 @@
                 android:text="-"/>
         </TableRow>
 
-        <TableRow>
-
-        </TableRow>
-
-
-
 
     </TableLayout>
 
