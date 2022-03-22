@@ -23,26 +23,26 @@
     <string name="tacotradicional">Taco Tradicional</string>
     <string name="tacotradicionaleng">Traditional Taco</string>
 
-        <!--Variante taco tradicional-->
-        <string name="choiceofmeat">Choice of Meat</string>
-        <string name="asada">Asada / Beef Steak</string>
-        <string name="pollo">Pollo / Chicken</string>
-        <string name="carnitas">Carnitas / Pulled Pork</string>
-        <string name="chorizo">Chorizo / Mexican Sausage</string>
-        <string name="suadero">Suadero / Shredded Beef</string>
-        <string name="buche">Buche / Pork Stomach</string>
-        <string name="pastor">Al Pastor / Marinated Pork</string>
-        <string name="cachete">Cachete / Beef Cheek</string>
-        <string name="barbacoa">Barbacoa / BBQ</string>
-        <string name="tripa">Tripa / Beef Intestine</string>
-        <string name="chicharron">Chicharron / Pork Rinds</string>
-        <string name="cueritos">Cueritos / Pork Skin</string>
-        <string name="lengua">Lengua</string>
+    <!--Variante taco tradicional-->
+    <string name="choiceofmeat">Choice of Meat</string>
+    <string name="asada">Asada / Beef Steak</string>
+    <string name="pollo">Pollo / Chicken</string>
+    <string name="carnitas">Carnitas / Pulled Pork</string>
+    <string name="chorizo">Chorizo / Mexican Sausage</string>
+    <string name="suadero">Suadero / Shredded Beef</string>
+    <string name="buche">Buche / Pork Stomach</string>
+    <string name="pastor">Al Pastor / Marinated Pork</string>
+    <string name="cachete">Cachete / Beef Cheek</string>
+    <string name="barbacoa">Barbacoa / BBQ</string>
+    <string name="tripa">Tripa / Beef Intestine</string>
+    <string name="chicharron">Chicharron / Pork Rinds</string>
+    <string name="cueritos">Cueritos / Pork Skin</string>
+    <string name="lengua">Lengua</string>
 
-        <string name="rice">Rice</string>
-        <string name="beans">Beans</string>
-        <string name="quesomozzarella">Queso Mozzarella</string>
-        <string name="quesofresco">Queso Fresco</string>
+    <string name="rice">Rice</string>
+    <string name="beans">Beans</string>
+    <string name="quesomozzarella">Queso Mozzarella</string>
+    <string name="quesofresco">Queso Fresco</string>
 
     <string name="tacopescado">Taco de Pescado</string>
     <string name="tacopescadoeng">Fish Taco</string>
@@ -52,11 +52,11 @@
     <string name="quesadillas">Quesadillas</string>
     <string name="quesadillasdesc">Rellenas con su carne favorita, servidas con ensalada. Filled with your choice of meat, served with salad.</string>
 
-        <!--Variante taco tradicional-->
-        <string name="tamanio">Tamaño</string>
-        <string name="small">Small</string>
-        <string name="medium">Medium</string>
-        <string name="large">Large</string>
+    <!--Variante taco tradicional-->
+    <string name="tamanio">Tamaño</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
 
     <string name="huarache">Huaraches</string>
     <string name="huarachedesc">Tortilla gruesa con frijoles, tu carne favorita, lechuga, queso frescoy crema. Big Thick tortilla with beans, your choice of meta, fresh cheese, and sour cream.</string>
@@ -72,7 +72,6 @@
 
     <string name="tostadas">Tostadas</string>
     <string name="tostadasdesc">Tortilla frita cno frijoles, tu carne favorita, lechuga, queso fresco, crema y jitomate. Fried tortilla with beans, your choice of meat, lettuce, fresh cheese, sour cream and tomatoes.</string>
-
 
 
     <!--Precios-->

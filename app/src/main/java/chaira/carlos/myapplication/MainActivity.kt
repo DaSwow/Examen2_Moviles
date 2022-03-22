@@ -7,10 +7,17 @@ import android.os.Bundle
 import android.widget.Button
 
 
+
 class MainActivity : AppCompatActivity() {
+
+    companion object {
+        var carrito = ArrayList<Producto>()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
         val button: Button = findViewById(R.id.btn_menu)
         button.setOnClickListener{

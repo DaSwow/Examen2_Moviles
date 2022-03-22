@@ -8,8 +8,14 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 
+import chaira.carlos.myapplication.MainActivity.Companion.carrito
+
 class MenuPlantilla : AppCompatActivity() {
+
+    
     var menu = ArrayList<Producto>()
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu_plantilla)
@@ -147,17 +153,26 @@ class MenuPlantilla : AppCompatActivity() {
             image.setImageResource(prod.image)
             nombre.setText(prod.name)
             desc.setText(prod.description)
-            precio.setText("0.0")
+
+            precio.setText("${(prod.cantidad*prod.price)}")
 
             (vista.findViewById(R.id.btn_mas) as Button).setOnClickListener { view ->
+                if(carrito.contains(prod)) {
+                    carrito.remove(prod)
+                }
+
                 var cantidad= vista.findViewById(R.id.cantidad_producto) as TextView
                 var numeroCantidad = ((cantidad.text) as String).toDouble()
                 numeroCantidad += 1
                 cantidad.setText("${numeroCantidad}")
+                productos[p0]
 
                 var precioActual = numeroCantidad * prod.price
                 precioActual =  String.format("%.2f", precioActual).toDouble()
                 precio.setText("${precioActual}")
+
+
+                carrito.add(prod)
 
             }
 
@@ -172,7 +187,11 @@ class MenuPlantilla : AppCompatActivity() {
                     var precioActual = numeroCantidad * prod.price
                     precioActual =  String.format("%.2f", precioActual).toDouble()
                     precio.setText("${precioActual}")}
+
+                if(numeroCantidad==0.0){
+                    carrito.remove(prod)
                 }
+            }
             return vista
         }
     }
