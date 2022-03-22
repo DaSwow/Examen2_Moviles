@@ -24,7 +24,7 @@
         android:text="@string/welcome"
         android:textAlignment="center"
         />
-    <!-- preguntar porque no se adapta el color del boton-->
+
     <Button
         android:id="@+id/btn_menu"
         android:layout_width="250dp"
@@ -35,6 +35,39 @@
         android:textColor="@color/white"
         android:layout_gravity="center"
         android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/fondoRojo"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/Lorenzo"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/fondoRojo"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/Carlos"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/fondoRojo"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/Heriberto"
+        android:textAlignment="center"
         />
 
 </LinearLayout>

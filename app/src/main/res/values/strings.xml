@@ -4,6 +4,10 @@
     <string name="direccion">LOS PORTALES #1 - 1207 S KERR AVE</string>
     <string name="menu">Menu</string>
 
+    <string name="Heriberto">Heriberto Imperial Badillo</string>
+    <string name="Lorenzo">Lorenzo Euan Aispuro</string>
+    <string name="Carlos">Carlos Jesus Chaira TellesS</string>
+
 
     <!--Menu Texto Repetitivo-->
     <string name="signodinero">$</string>
