@@ -162,7 +162,7 @@ class MenuPlantilla : AppCompatActivity() {
             }
 
             (vista.findViewById(R.id.btn_menos) as Button) .setOnClickListener { view ->
-
+            
             }
 
 
