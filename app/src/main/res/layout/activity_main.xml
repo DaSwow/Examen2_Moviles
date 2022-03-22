@@ -10,10 +10,9 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="470dp"
-        android:src="@drawable/logotacos"
+        android:layout_height="400dp"
         android:scaleType="fitXY"
-        />
+        android:src="@drawable/logotacos" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
