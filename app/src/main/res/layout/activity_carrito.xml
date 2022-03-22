@@ -46,7 +46,6 @@
         android:stretchColumns="2">
 
         <TableRow>
-
             <TextView
                 android:id="@+id/total"
                 android:layout_width="50dp"
@@ -59,7 +58,7 @@
             <TextView
                 android:id="@+id/totalNum"
                 android:layout_width="50dp"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="0"
