@@ -28,27 +28,21 @@
         android:text="Carrito"
         android:textAlignment="center"
         />
-    <ListView
-        android:id="@+id/listview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_comprar"
         android:layout_width="250dp"
         android:layout_height="70dp"
-        android:text="Comprar"
-        android:textSize="20dp"
-        android:backgroundTint="@color/fondoRojo"
-        android:textColor="@color/white"
         android:layout_gravity="center"
         android:layout_marginTop="5dp"
-        />
+        android:backgroundTint="@color/fondoRojo"
+        android:text="Comprar"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
         android:stretchColumns="2">
 
         <TableRow>
@@ -70,14 +64,15 @@
                 android:gravity="center"
                 android:text="0"
                 />
-
         </TableRow>
-
-
-
     </TableLayout>
 
-
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        />
 
 
 
