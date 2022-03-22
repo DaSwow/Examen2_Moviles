@@ -11,11 +11,7 @@ import android.widget.*
 import chaira.carlos.myapplication.MainActivity.Companion.carrito
 
 class MenuPlantilla : AppCompatActivity() {
-
-    
     var menu = ArrayList<Producto>()
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu_plantilla)
@@ -165,7 +161,7 @@ class MenuPlantilla : AppCompatActivity() {
                 var numeroCantidad = ((cantidad.text) as String).toDouble()
                 numeroCantidad += 1
                 cantidad.setText("${numeroCantidad}")
-                productos[p0]
+                prod.cantidad = numeroCantidad
 
                 var precioActual = numeroCantidad * prod.price
                 precioActual =  String.format("%.2f", precioActual).toDouble()
